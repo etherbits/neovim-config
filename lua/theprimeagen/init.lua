@@ -1,4 +1,3 @@
-require("theprimeagen.set")
 require("theprimeagen.remap")
 
 -- DO NOT INCLUDE THIS
