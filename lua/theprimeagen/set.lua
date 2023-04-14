@@ -21,6 +21,9 @@ vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
+<<<<<<< HEAD
 vim.opt.colorcolumn = "80"
 
+=======
+>>>>>>> 1df39a2 (removing color line)
 vim.g.mapleader = " "
