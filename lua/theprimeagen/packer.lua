@@ -33,6 +33,12 @@ return require('packer').startup(function(use)
       end
   })
 
+  use({"rebelot/kanagawa.nvim",
+        as = 'kanagawa',
+    config = function()
+        vim.cmd('colorscheme kanagawa')
+    end
+})
 
   use({"nvim-treesitter/nvim-treesitter", run = ":TSUpdate"})
   use("nvim-treesitter/playground")
@@ -69,6 +75,6 @@ return require('packer').startup(function(use)
   use("github/copilot.vim")
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
-
+  use("ThePrimeagen/vim-be-good")
 end)
 
