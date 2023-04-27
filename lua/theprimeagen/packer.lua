@@ -50,6 +50,8 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/nvim-treesitter-context")
   use("jiangmiao/auto-pairs")
   use("numToStr/Comment.nvim")
+  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install",
+    setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
 
   use {
     'VonHeikemen/lsp-zero.nvim',
