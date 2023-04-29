@@ -50,8 +50,16 @@ return require('packer').startup(function(use)
   use("nvim-treesitter/nvim-treesitter-context")
   use("jiangmiao/auto-pairs")
   use("numToStr/Comment.nvim")
-  use({ "iamcco/markdown-preview.nvim", run = "cd app && npm install",
-    setup = function() vim.g.mkdp_filetypes = { "markdown" } end, ft = { "markdown" }, })
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = "cd app && npm install",
+    setup = function() vim.g.mkdp_filetypes = { "markdown" } end,
+    ft = { "markdown" },
+  })
+  use({ "windwp/nvim-ts-autotag" })
+  use('neovim/nvim-lspconfig')
+  use('jose-elias-alvarez/null-ls.nvim')
+  use('MunifTanjim/prettier.nvim')
 
   use {
     'VonHeikemen/lsp-zero.nvim',
