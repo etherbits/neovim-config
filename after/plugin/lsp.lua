@@ -21,6 +21,16 @@ lsp.configure('lua-language-server', {
 
 
 local cmp = require('cmp')
+
+cmp.setup {
+  sources = {
+    {
+      name = 'lsp-zero',
+      max_item_count = 2
+    }
+  }
+}
+
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 local cmp_mappings = lsp.defaults.cmp_mappings({
   ['<C-p>'] = cmp.mapping.select_prev_item(cmp_select),

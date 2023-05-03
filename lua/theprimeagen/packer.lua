@@ -71,7 +71,7 @@ return require('packer').startup(function(use)
       { 'williamboman/mason-lspconfig.nvim' },
 
       -- Autocompletion
-      { 'hrsh7th/nvim-cmp' },
+      { 'yioneko/nvim-cmp' },
       { 'hrsh7th/cmp-buffer' },
       { 'hrsh7th/cmp-path' },
       { 'saadparwaiz1/cmp_luasnip' },
@@ -89,4 +89,13 @@ return require('packer').startup(function(use)
   use("eandrju/cellular-automaton.nvim")
   use("laytan/cloak.nvim")
   use("ThePrimeagen/vim-be-good")
+  use({
+    "kylechui/nvim-surround",
+    tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+    config = function()
+      require("nvim-surround").setup({
+        -- Configuration here, or leave empty to use defaults
+      })
+    end
+  })
 end)
