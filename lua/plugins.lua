@@ -1,4 +1,4 @@
-return { "numToStr/Comment.nvim","Pocco81/auto-save.nvim", "jiangmiao/auto-pairs", "MunifTanjim/prettier.nvim",
+return { "ggandor/leap.nvim", "numToStr/Comment.nvim","Pocco81/auto-save.nvim", "jiangmiao/auto-pairs", "MunifTanjim/prettier.nvim",
 "jose-elias-alvarez/null-ls.nvim",
 	"rafamadriz/friendly-snippets",
 	"VonHeikemen/lsp-zero.nvim",
