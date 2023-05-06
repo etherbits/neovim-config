@@ -1,4 +1,4 @@
-return { 
+return {'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
 { "CRAG666/code_runner.nvim", config = true },
 	"ggandor/leap.nvim", "numToStr/Comment.nvim","Pocco81/auto-save.nvim", "jiangmiao/auto-pairs", "MunifTanjim/prettier.nvim",
 "jose-elias-alvarez/null-ls.nvim",
