@@ -1,5 +1,5 @@
 function SetColors(theme)
-	theme = theme or "poimandres"
+	theme = theme or "github_dark"
 	vim.cmd.colorscheme(theme)
 
 	-- vim.api.nvim_set_hl(0, "Normal", { bg = "#131313" })
