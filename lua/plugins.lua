@@ -1,6 +1,10 @@
 return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
   'numToStr/Navigator.nvim',
   {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
+  {
     'AlexvZyl/nordic.nvim',
     lazy = false,
     priority = 1000,
