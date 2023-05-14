@@ -1,5 +1,35 @@
 return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
-"Alexis12119/nightly.nvim",
+  'numToStr/Navigator.nvim',
+  {
+    "nvim-telescope/telescope-file-browser.nvim",
+    dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
+  },
+  {
+    'AlexvZyl/nordic.nvim',
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require 'nordic'.load()
+    end
+  },
+  {
+    'filipdutescu/renamer.nvim',
+    branch = 'master'
+  },
+  {
+    'olivercederborg/poimandres.nvim',
+    config = function()
+      require('poimandres').setup {
+        -- leave this setup function empty for default config
+        -- or refer to the configuration section
+        -- for configuration options
+      }
+    end
+  },
+  "rmehri01/onenord.nvim",
+  "folke/tokyonight.nvim",
+  "ful1e5/onedark.nvim",
+  "Alexis12119/nightly.nvim",
   "rebelot/kanagawa.nvim",
   { "catppuccin/nvim",             name = "catppuccin" },
   { 'projekt0n/github-nvim-theme', version = 'v0.0.7' },
