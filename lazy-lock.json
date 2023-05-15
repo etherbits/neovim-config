@@ -28,6 +28,7 @@
   "nvim-lspconfig": { "branch": "master", "commit": "f01429048950195bcab6c430b430fc44b2d9e05a" },
   "nvim-surround": { "branch": "main", "commit": "e6047128e57c1aff1566fb9f627521d2887fc77a" },
   "nvim-treesitter": { "branch": "master", "commit": "12453e0e3d2e82a4ae813f1540315c7cf2df2363" },
+  "nvim-treesitter-context": { "branch": "master", "commit": "f24a86c32238867f24fbff49913db0068f8488d2" },
   "onedark.nvim": { "branch": "main", "commit": "b5161f0c631571640485be5d1c059cab82c86872" },
   "onenord.nvim": { "branch": "main", "commit": "f9eb20f354e59b309dc75a526667af67b14e3e8c" },
   "oxocarbon.nvim": { "branch": "main", "commit": "ece6aefe395717d92dd0d4f567eef836337ff761" },
