@@ -4,8 +4,7 @@ return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
     "nvim-telescope/telescope-file-browser.nvim",
     dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
   },
-   "nvim-treesitter/nvim-treesitter-context"
-  ,
+  "lukas-reineke/indent-blankline.nvim",
   {
     'AlexvZyl/nordic.nvim',
     lazy = false,
@@ -62,6 +61,7 @@ return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
     end
   },
   { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+  "nvim-treesitter/nvim-treesitter-context",
   "nvim-lua/plenary.nvim",
   {
     "nvim-telescope/telescope.nvim", tag = "0.1.1" },
