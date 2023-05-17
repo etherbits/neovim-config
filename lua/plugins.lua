@@ -17,6 +17,7 @@ return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
     'filipdutescu/renamer.nvim',
     branch = 'master'
   },
+  'windwp/nvim-ts-autotag',
   {
     'olivercederborg/poimandres.nvim',
     config = function()
