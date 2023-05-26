@@ -28,6 +28,14 @@ return { 'nvim-lua/popup.nvim', 'sudormrfbin/cheatsheet.nvim',
       }
     end
   },
+  {
+    'lewis6991/gitsigns.nvim',
+    -- tag = 'release' -- To use the latest release (do not use this if you run Neovim nightly or dev builds!)
+  },
+  {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  },
   "rmehri01/onenord.nvim",
   "folke/tokyonight.nvim",
   "ful1e5/onedark.nvim",
